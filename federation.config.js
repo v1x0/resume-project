@@ -1,16 +1,13 @@
 const { withNativeFederation, shareAll } = require('@angular-architects/native-federation/config');
 
 module.exports = withNativeFederation({
-  name: 'resume-project',
-
-
-
+  name: 'resumeApp',
   exposes: {
-    './ResumeProjectComponent': './src/app/app.routes.ts',
+    './routes': './src/app/app.routes.ts'
   },
 
   shared: {
-    ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
+    ...shareAll({ singleton: true, strictVersion: false, requiredVersion: 'auto' }),
   },
 
   skip: [
@@ -29,5 +26,6 @@ module.exports = withNativeFederation({
     // issues with node libs. Comment this out to
     // get the traditional behavior:
     ignoreUnusedDeps: true
-  }
+  },
+  publicPath: 'https://v1x0.github.io/resume-project/'
 });
