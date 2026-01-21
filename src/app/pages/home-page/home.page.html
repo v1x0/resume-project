@@ -1,0 +1,58 @@
+<div class="grid p-4 surface-ground">
+    <div class="col-12 md:col-4">
+        <p-card styleClass="h-full">
+            <profile-content-fragment
+                contentClass="text-center mb-5"
+                image="/images/picture.jpeg"
+                imageClass="w-9rem h-9rem border-circle shadow-4 mb-3"
+                nameClass="m-0"
+                positionLabel="{{'POSITION' | translate}}"
+                positionClass="text-600"
+            ></profile-content-fragment>
+            <p-divider></p-divider>
+            <professional-summary-content-fragment
+                contentClass="text-center mb-5"
+                titleClass="m-0"
+                title="{{'PROFESSIONAL_SUMMARY' | translate}}"
+                descriptionClass="text-justify"
+                description="{{'PROFESIONAL_DESCRIPTION' | translate }}"
+            ></professional-summary-content-fragment>
+            <p-divider></p-divider>
+            <contact-content-fragment
+                contentClass="mt-4"
+                contactClass="text-primary mb-3"
+                contactLabel="{{'CONTACT' | translate}}"
+                [contacts]="contactData"
+            ></contact-content-fragment>
+            <p-divider></p-divider>
+            <skills-content-fragment
+                contentClass="mt-4"
+                titleClass="text-primary mb-3"
+                titleLabel="{{'SKILLS' | translate}}"
+                skillsContentClass="flex flex-wrap gap-2"
+                skillTitleClass="block w-full"
+                classIcon="pi pi-star-fill text-sm"
+                [data]="skills"
+            ></skills-content-fragment>
+        </p-card>
+    </div>
+    <div class="col-12 md:col-8">
+        <p-card header="{{'PROFESSIONAL_EXPERIENCE' | translate}}" styleClass="mb-4">
+            <timeline-content-fragment
+                contentClass="mb-4"
+                positionClass="text-700 font-bold"
+                enterpriseClass="text-500 mb-2"
+                [data]="timelineData"
+            ></timeline-content-fragment>
+        </p-card>
+        <p-card header="{{'EDUCATION' | translate}}">
+            <education-content-fragment
+                contentClass="justify-content-between align-items-center mb-3 pl-5"
+                descriptionClass="font-bold mb-2"
+                description="{{'EDUCATION_DESCRIPTION' | translate}}"
+                universityClass="text-600"
+                university="Universidad Nacional Autónoma de México"
+            ></education-content-fragment>
+        </p-card>
+    </div>
+</div>

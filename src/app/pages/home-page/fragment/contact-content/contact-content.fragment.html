@@ -1,0 +1,11 @@
+<div [class]="contentClass">
+    <h3 [class]="contactClass">{{contactLabel}}</h3>
+    @for(contact of contacts; track $index) {
+        <div [class]="contact.contactItemClass">
+            <i [class]="contact.contactIconClass"></i>
+            <span><a [href]="contact.contactItemRef">{{contact.contactItemLabel}}</a></span>
+        </div>
+    } @empty {
+        <span>&nbsp;</span>
+    }
+</div>

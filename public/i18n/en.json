@@ -1,8 +1,9 @@
 {
-    "TITULO": "HOLA MUNDOoooo",
     "POSITION": "Full Stack Developer",
     "CONTACT": "Contact",
     "SKILLS": "Skills",
+    "DATABASE": "DATABASE",
+    "OTHERS": "OTROS",
     "PROFESSIONAL_SUMMARY": "Professional Summary",
     "PROFESIONAL_DESCRIPTION": "Full Stack Web Developer & Database Administrator with 9+ years of experience designing, developing, and maintaining scalable, high-performance web applications. Proven expertise in both frontend and backend development using Angular, React, Node.js, and PHP. Skilled in implementing CI/CD pipelines, optimizing SQL databases, and leading modernization projects to improve efficiency and code quality. Recognized for problem-solving, mentoring, and delivering secure, reliable software solutions that align with business objectives.",
     "PROFESSIONAL_EXPERIENCE": "Professional Experience",
@@ -74,5 +75,7 @@
                 "END": "06-2017"
             }
         }
-    }
+    },
+    "EDUCATION": "Education",
+    "EDUCATION_DESCRIPTION": "Bachelor's Degree in Computer Engineering"
 }

@@ -1,0 +1,16 @@
+<p-timeline [value]="data">
+    <ng-template pTemplate="opposite" let-exp>
+        <span>{{exp.time}}</span>
+    </ng-template>
+    <ng-template pTemplate="content" let-exp>
+        <div [class]="contentClass">
+            <span [class]="positionClass">{{exp.position}}</span>
+            <div [class]="enterpriseClass">{{exp.enterprise}}</div>
+            <ul>
+                @for (activity of exp.activities; track $index) {
+                    <li>{{activity}}</li>
+                }
+            </ul>
+        </div>
+    </ng-template>
+</p-timeline>
