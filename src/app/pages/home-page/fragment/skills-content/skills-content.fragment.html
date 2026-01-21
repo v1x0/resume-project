@@ -1,0 +1,40 @@
+<div [class]="contentClass">
+    <h3 [class]="titleClass">{{titleLabel}}</h3>
+    <div [class]="skillsContentClass">
+        <section>
+            @for(skillTitle of keysSkills; track $index) {
+                <h5 [class]="skillTitleClass">{{ skillTitle }}</h5>
+                @for(skill of data[skillTitle]; track $index) {
+                    <p-chip [icon]="classIcon" [label]="skill"></p-chip>
+                }
+            }
+        </section>
+    </div>
+</div>
+<!--
+<div class="mt-4">
+    <h3 class="text-primary mb-3">{{'SKILLS' | translate}}</h3>
+    <div class="flex flex-wrap gap-2">
+        <h5 class="block w-full">FRONTEND</h5>
+        @for(skill of skills['FRONTEND']; track $index) {
+        <p-chip icon="pi pi-star-fill text-sm" [label]="skill"></p-chip>
+        }
+        <h5 class="block w-full">BACKEND</h5>
+        @for(skill of skills['BACKEND']; track $index) {
+        <p-chip icon="pi pi-star-fill text-sm" [label]="skill"></p-chip>
+        }
+        <h5 class="block w-full">{{'DATABASE' | translate}}</h5>
+        @for(skill of skills['DATABASE']; track $index) {
+        <p-chip icon="pi pi-star-fill text-sm" [label]="skill"></p-chip>
+        }
+        <h5 class="block w-full">DEVOPS</h5>
+        @for(skill of skills['DEVOPS']; track $index) {
+        <p-chip icon="pi pi-star-fill text-sm" [label]="skill"></p-chip>
+        }
+        <h5 class="block w-full">{{'OTHERS' | translate}}</h5>
+        @for(skill of skills['OTHERS']; track $index) {
+        <p-chip icon="pi pi-star-fill text-sm" [label]="skill"></p-chip>
+        }
+    </div>
+</div>
+-->
