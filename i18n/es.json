@@ -1,0 +1,81 @@
+{
+    "POSITION": "Desarrollador Web Fullstack",
+    "CONTACT": "Contacto",
+    "SKILLS": "Habilidades",
+    "DATABASE": "BASE DE DATOS",
+    "OTHERS": "OTROS",
+    "PROFESSIONAL_SUMMARY": "Perfil Personal",
+    "PROFESIONAL_DESCRIPTION": "Desarrollador Web Full Stack y Administrador de Bases de Datos con más de 9 años de experiencia en el diseño, desarrollo y optimización de aplicaciones web escalables y de alto rendimiento. Experto en tecnologías frontend y backend como Angular, React, Node.js y PHP. Amplia experiencia en la implementación de pipelines CI/CD, optimización de bases de datos SQL y modernización de sistemas heredados. Reconocido por su capacidad de liderazgo técnico, mentoría, solución de problemas y entrega de software seguro, confiable y alineado con los objetivos del negocio.",
+    "PROFESSIONAL_EXPERIENCE": "Experiencia Profesional",
+    "EXPERIENCE_JOBS": {
+        "TATA": {
+            "ROL": "Desarrollador Java",
+            "ENTERPRISE": "TATA CONSULTANCY SERVICES",
+            "ACTIVITIES": {},
+            "DATE": {
+                "START": "12-2025"
+            }
+        },
+        "GS": {
+            "ROL": "Desarrollador Web Full Stack",
+            "ENTERPRISE": "Grupo Salinas",
+            "ACTIVITIES": {
+                "1": "Lideré la modernización de sistemas web mediante automatización CI/CD, reduciendo tiempos de despliegue.",
+                "2": "Realicé análisis de vulnerabilidades con SonarQube y apliqué mejoras de seguridad.",
+                "3": "Optimicé el rendimiento y escalabilidad de aplicaciones Angular con formularios reactivos.",
+                "4": "Guié a desarrolladores junior en arquitectura limpia y gestión de estado con NgRx.",
+                "5": "Integré sistemas heredados en arquitecturas modulares modernas."
+            },
+            "DATE": {
+                "START": "02-2025",
+                "END": "12-2025"
+            }
+        },
+        "KODEIT": {
+            "ROL": "Desarrollador Web",
+            "ENTERPRISE": "Kode IT",
+            "ACTIVITIES": {
+                "1": "Migré sistemas de generación de PDF a bibliotecas modernas de JavaScript.",
+                "2": "Optimizaciones SQL y de backend mejoraron la eficiencia de los procesos.",
+                "3": "Desarrollé y probé APIs REST escalables para integración de aplicaciones.",
+                "4": "Colaboré con equipos multidisciplinarios en despliegues estables y automatizados."
+            },
+            "DATE": {
+                "START": "10-2024",
+                "END": "02-2025"
+            }
+        },
+        "GLOBANT": {
+            "ROL": "Desarrollador Web UI Semi Senior Advance",
+            "ENTERPRISE": "Globant",
+            "ACTIVITIES": {
+                "1": "Diseñé y mantuve microservicios escalables con Spring Boot y APIs RESTful.",
+                "2": "Creé componentes reutilizables en Angular con NgRx y módulos en Vue.js.",
+                "3": "Migré componentes de Polymer a StencilJS, mejorando rendimiento e integración.",
+                "4": "Implementé microservicios con AWS Lambda y modernicé código legacy.",
+                "5": "Desarrollé animaciones con Canvas API y lógica avanzada en JavaScript.",
+                "6": "Implementé componentes para frameworks BackBase y Avoka, obteniendo certificación Frontend.",
+                "7": "Creé aplicaciones financieras para clientes Citi y componentes educativos con LearnCube API."
+            },
+            "DATE": {
+                "START": "01-2017",
+                "END": "01-2024"
+            }
+        },
+        "GOWI": {
+            "ROL": "Desarrollador Web Full Stack",
+            "ENTERPRISE": "Gowi",
+            "ACTIVITIES": {
+                "1": "Desarrollé aplicaciones web dinámicas con jQuery y PHP para publicidad personalizada.",
+                "2": "Implementé routers Mikrotik con portales cautivos para recopilación de datos.",
+                "3": "Integré autenticación LDAP para gestión segura de usuarios."
+            },
+            "DATE": {
+                "START": "06-2015",
+                "END": "06-2017"
+            }
+        }
+    },
+    "EDUCATION": "Educación",
+    "EDUCATION_DESCRIPTION": "Licenciatura en Ciencias de la Computación"
+}

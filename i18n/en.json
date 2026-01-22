@@ -1,0 +1,81 @@
+{
+    "POSITION": "Full Stack Developer",
+    "CONTACT": "Contact",
+    "SKILLS": "Skills",
+    "DATABASE": "DATABASE",
+    "OTHERS": "OTROS",
+    "PROFESSIONAL_SUMMARY": "Professional Summary",
+    "PROFESIONAL_DESCRIPTION": "Full Stack Web Developer & Database Administrator with 9+ years of experience designing, developing, and maintaining scalable, high-performance web applications. Proven expertise in both frontend and backend development using Angular, React, Node.js, and PHP. Skilled in implementing CI/CD pipelines, optimizing SQL databases, and leading modernization projects to improve efficiency and code quality. Recognized for problem-solving, mentoring, and delivering secure, reliable software solutions that align with business objectives.",
+    "PROFESSIONAL_EXPERIENCE": "Professional Experience",
+    "EXPERIENCE_JOBS": {
+        "TATA": {
+            "ROL": "JAVA Developer",
+            "ENTERPRISE": "TATA CONSULTANCY SERVICES",
+            "ACTIVITIES": {},
+            "DATE": {
+                "START": "12-2025"
+            }
+        },
+        "GS": {
+            "ROL": "FullStack Web Developer",
+            "ENTERPRISE": "Grupo Salinas",
+            "ACTIVITIES": {
+                "1": "Led the modernization of web systems through CI/CD automation, reducing deployment times.",
+                "2": "Conducted vulnerability analysis using SonarQube and implemented security fixes.",
+                "3": "Optimized code performance and scalability using reactive forms in Angular.",
+                "4": "Mentored junior developers on clean architecture and state management best practices.",
+                "5": "Integrated legacy systems into new modular architectures, improving maintainability."
+            },
+            "DATE": {
+                "START": "02-2025",
+                "END": "12-2025"
+            }
+        },
+        "KODEIT": {
+            "ROL": "Web Developer",
+            "ENTERPRISE": "Kode IT",
+            "ACTIVITIES": {
+                "1": "Migrated legacy PDF generation systems to modern JavaScript libraries, reducing generation time.",
+                "2": "Enhanced backend efficiency by optimizing SQL queries and database indexing.",
+                "3": "Developed and tested REST APIs for scalable application integration.",
+                "4": "Collaborated with cross-functional teams ensuring stable deployments and efficient workflows."
+            },
+            "DATE": {
+                "START": "10-2024",
+                "END": "02-2025"
+            }
+        },
+        "GLOBANT": {
+            "ROL": "Web UI SSr Adv",
+            "ENTERPRISE": "Globant",
+            "ACTIVITIES": {
+                "1": "Designed and maintained scalable microservices using Spring Boot and RESTful APIs.",
+                "2": "Created reusable Angular components with NgRx and developed Vue.js form modules.",
+                "3": "Migrated Polymer components to StencilJS, enhancing performance and integration.",
+                "4": "Utilized AWS Lambda for event-driven microservices and modernized legacy applications.",
+                "5": "Created Canvas API animations and implemented advanced frontend logic with JavaScript.",
+                "6": "Developed BackBase and Avoka framework components; obtained BackBase Frontend Certification.",
+                "7": "Built financial apps for Citi clients and LearnCube-based educational components."
+            },
+            "DATE": {
+                "START": "01-2017",
+                "END": "01-2024"
+            }
+        },
+        "GOWI": {
+            "ROL": "FullStack Developer",
+            "ENTERPRISE": "Gowi",
+            "ACTIVITIES": {
+                "1": "Developed dynamic advertising web applications using jQuery and PHP.",
+                "2": "Deployed Mikrotik routers with captive portals to collect user data.",
+                "3": "Integrated LDAP for secure user authentication and access control."
+            },
+            "DATE": {
+                "START": "06-2015",
+                "END": "06-2017"
+            }
+        }
+    },
+    "EDUCATION": "Education",
+    "EDUCATION_DESCRIPTION": "Bachelor's Degree in Computer Engineering"
+}
